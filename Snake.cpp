@@ -104,7 +104,6 @@ int main()
 	int furit_in_high = rand() % borad_hight; // random place fruit in first run
 	while (!gameover)
 	{
-		//increase_all_element(snake_in_x);
 		build_board(borad_hight, borad_wide, furit_in_wide, furit_in_high, snake_in_high, snake_in_wide, score,gameover);
 		movment_input(movement);
 		snake_move(movement, snake_in_high, snake_in_wide);
